@@ -23,3 +23,20 @@ jobs:
         with:
           name: quantum-${{ matrix.method }}
           path: data/generated/quantum_${{ matrix.method }}.json
+  summary:
+    needs: scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v6
+        with:
+          pattern: quantum-*
+          path: data
+          merge-multiple: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python scripts/summary_quantum.py
+      - uses: actions/upload-artifact@v6
+        with:
+          name: quantum-summary
+          path: quantum-summary.csv

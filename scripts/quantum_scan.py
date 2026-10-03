@@ -8,8 +8,13 @@ if method=='hf':
  r=scf.RHF(mol).run()
 else:
  r=dft.RKS(mol);r.xc=method;r=r.run()
+e=list(r.mo_energy);n=mol.nelectron//2
+homo=e[n-1];lumo=e[n];
+try:
+ _,pop=r.mulliken_pop(verbose=0);charges=[float(x) for x in pop]
+except Exception:charges=[]
 Path('data/generated').mkdir(parents=True,exist_ok=True)
-o={'system':'H2O','method':method,'basis':'sto-3g','energy_hartree':r.e_tot,'converged':bool(r.converged)}
+o={'system':'H2O','method':method,'basis':'sto-3g','energy_hartree':float(r.e_tot),'converged':bool(r.converged),'homo_hartree':float(homo),'lumo_hartree':float(lumo),'gap_hartree':float(lumo-homo),'charges':charges,'geometry_angstrom':[[float(v) for v in mol.atom_coord(i)] for i in range(mol.natm)]}
 Path(f'data/generated/quantum_{method}.json').write_text(json.dumps(o,indent=2),encoding='utf-8')
 assert o['converged']
 print(json.dumps(o))
