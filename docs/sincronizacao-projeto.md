@@ -108,3 +108,4 @@ O repositorio adotara no minimo 80 referencias rastreaveis, mas nenhuma referenc
 - Pergunta de pesquisa: A + B, quais composicoes/condicoes favorecem estruturas sp3 e qual seria a potencia teorica de uma aplicacao betavoltaica, usando apenas parametros publicados.
 - Hipoteses: A como principal; B e C como hipoteses concorrentes a serem testadas e potencialmente rejeitadas. A: impurezas N/O/Ca/P alteram energia, defeitos e gap. B: toda cinza pode virar diamante puro. C: carbono biologico e automaticamente radioativo em nivel util.
 - Objetivos especificos: A, B, C, D, E e F. A opcao G foi excluida por seguranca.
+- Metodologia: A, revisao sistematizada, DFT, dinamica molecular e modelo cinetico.
