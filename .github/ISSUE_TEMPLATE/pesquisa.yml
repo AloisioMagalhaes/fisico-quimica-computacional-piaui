@@ -1,0 +1,17 @@
+name: Pesquisa
+description: Questao cientifica rastreavel
+body:
+  - type: textarea
+    id: pergunta
+    attributes:
+      label: Pergunta
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia e DOI
+  - type: textarea
+    id: criterio
+    attributes:
+      label: Criterio de sucesso

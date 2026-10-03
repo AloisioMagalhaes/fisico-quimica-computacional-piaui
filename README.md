@@ -1,0 +1,17 @@
+# Fisico-Quimica Computacional no Piaui
+
+Projeto educacional para modelagem matematica, simulacao de materiais e estudo teorico de interacoes fisico-quimicas.
+
+Este repositorio nao autoriza obter, concentrar, cristalizar ou manipular material radioativo. A hipotese sobre carbono-14 e bateria diamantada sera tratada apenas por literatura verificavel e simulacao numerica.
+
+Gitflow: `main` e releases estaveis; `develop` integra trabalho; `feature/*`, `research/*`, `docs/*` e `release/*` sao temporarias. Commits seguem Conventional Commits e releases seguem SemVer.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python scripts\modelo.py
+python scripts\pyscf_exemplo.py
+```
+
+ABNT: NBR 6022:2018, NBR 14724, NBR 10520:2023 e NBR 6023:2018, confirmando a edicao exigida pela instituicao. Fontes computacionais: https://pyscf.org/ e https://psi4.github.io/psi4docs/master/. Fonte de contexto: https://www.ukaea.org/news/diamonds-are-forever-worlds-first-carbon-14-diamond-battery-produced/ . Sci-Hub nao sera usado; utilizar DOI, repositorios institucionais, PubMed Central, arXiv ou acesso aberto legal.
