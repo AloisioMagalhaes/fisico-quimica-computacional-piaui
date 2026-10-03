@@ -19,3 +19,5 @@ ABNT: NBR 6022:2018, NBR 14724, NBR 10520:2023 e NBR 6023:2018, confirmando a ed
 Materiais de pesquisa: [matriz de oportunidades](docs/matriz-oportunidades.md), [modelo de fichamento](docs/fichamento-modelo.md) e [evidencias bibliograficas](docs/evidencias.md).
 
 Protocolo de qualidade: [ABNT, integridade, escrita autoral e Feynman](docs/protocolo-qualidade-escrita.md).
+
+Explicação progressiva dos cálculos, limites e resultados: [Guia Feynman](docs/guia-feynman.md).
