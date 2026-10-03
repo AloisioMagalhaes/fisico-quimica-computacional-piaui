@@ -105,3 +105,4 @@ O repositorio adotara no minimo 80 referencias rastreaveis, mas nenhuma referenc
 - Interpretacao operacional: modelar computacionalmente carbono biogenico e avaliar teoricamente residuos de biomassa ou cremacao como precursores parciais de diamante sintetico. Qualquer experimento real depende de laboratorio autorizado, caracterizacao previa e revisao humana.
 - Objeto de estudo: A, modelos atomicos de carbono, grafite, carbonatos e impurezas.
 - Problema norteador: A + B, efeito da composicao e das impurezas na estabilidade/crescimento HPHT-CVD e avaliacao secundaria de propriedades relevantes para conversao energetica, sem fabricar fonte radioativa.
+- Pergunta de pesquisa: A + B, quais composicoes/condicoes favorecem estruturas sp3 e qual seria a potencia teorica de uma aplicacao betavoltaica, usando apenas parametros publicados.
