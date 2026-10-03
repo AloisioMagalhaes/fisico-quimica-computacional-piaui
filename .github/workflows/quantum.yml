@@ -22,7 +22,7 @@ jobs:
           - {method: b3lyp, system: ring6}
           - {method: hf, system: tetra4}
           - {method: b3lyp, system: tetra4}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -39,7 +39,7 @@ jobs:
           path: data/generated/quantum_${{ matrix.system }}_${{ matrix.method }}.json
   summary:
     needs: scan
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
       - uses: actions/download-artifact@v7
