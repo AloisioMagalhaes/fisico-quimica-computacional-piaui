@@ -1,1 +1,3 @@
-Usar Python, PySCF e, quando autorizado, Psi4. Fixar versoes, geometria, base, funcional, convergencia, unidades e sementes. Comparar calculos com referencia publicada e registrar erro absoluto e relativo.
+O pipeline usa Python e PySCF. A matriz de execução combina sistemas H2O, C2, C4 linear, anel C6 e C4 tetraédrico com base STO-3G e métodos HF, PBE e B3LYP quando a combinação atinge convergência. Cada execução registra geometria, método, base, energia total, HOMO, LUMO, gap, cargas de Mulliken, convergência e arquivo JSON. O GitHub Actions fixa Python 3.12, instala dependências, executa testes, consolida CSV e gera gráfico.
+
+O critério de aprovação é convergência explícita, gap positivo, saída reproduzível e interpretação com unidades e limitações. A combinação PBE--C4 tetraédrico não é tratada como resultado aprovado quando não converge. A comparação é exploratória e molecular; não representa periodicidade, crescimento cristalino ou desempenho energético.

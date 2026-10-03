@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Fisico-quimica computacional no Piaui
+message: Cite este repositorio ao reutilizar codigo, dados ou artefatos.
+type: software
+authors:
+  - family-names: Magalhães
+    given-names: Aloisio
+version: 0.1.0
+date-released: 2026-10-03
+repository-code: https://github.com/AloisioMagalhaes/fisico-quimica-computacional-piaui
+license: MIT

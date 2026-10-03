@@ -1,0 +1,37 @@
+\documentclass[final]{beamer}
+\usepackage[orientation=portrait,size=a1,scale=1.1]{beamerposter}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usetheme{default}
+\title{Modelagem computacional reprodutível de estruturas moleculares de carbono}
+\author{Aloisio Magalhães}
+\institute{Projeto de físico-química computacional}
+\begin{document}
+\begin{frame}[t]
+\maketitle
+\begin{columns}[t]
+\column{.48\textwidth}
+\begin{block}{Pergunta}
+Como um pipeline reprodutível compara energia e propriedades eletrônicas de modelos pequenos de carbono sob diferentes aproximações de estrutura eletrônica?
+\end{block}
+\begin{block}{Método}
+Python + PySCF; base STO-3G; HF, PBE e B3LYP; sistemas H2O, C2, C4 linear, anel C6 e C4 tetraédrico. O GitHub Actions registra código, ambiente, logs e artefatos.
+\end{block}
+\begin{block}{Observáveis}
+Energia total, convergência, HOMO, LUMO, gap, cargas de Mulliken e geometria. A saída principal é JSON; a síntese é CSV e gráfico.
+\end{block}
+\column{.48\textwidth}
+\begin{block}{Interpretação}
+Os modelos servem como benchmark e treinamento de reprodutibilidade. C4 linear e C6 são aproximações moleculares de estruturas sp2; C4 tetraédrico é uma aproximação de coordenação sp3. Nenhum substitui um cálculo periódico.
+\end{block}
+\begin{block}{Limitações}
+Não há periodicidade, crescimento cristalino, amostra de cinza, radioisótopo ou bateria. Falha de convergência é registrada. Uma previsão computacional não é prova experimental.
+\end{block}
+\begin{block}{Reprodução}
+Repositório: \url{https://github.com/AloisioMagalhaes/fisico-quimica-computacional-piaui}
+
+Workflow: \url{https://github.com/AloisioMagalhaes/fisico-quimica-computacional-piaui/actions/workflows/quantum.yml}
+\end{block}
+\end{columns}
+\end{frame}
+\end{document}
