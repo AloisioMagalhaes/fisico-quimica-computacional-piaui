@@ -15,11 +15,13 @@ jobs:
           root_file: main.tex
           working_directory: paper
           latexmk_shell_escape: true
+          args: -pdf -silent -file-line-error -halt-on-error -interaction=nonstopmode
       - uses: xu-cheng/latex-action@v4
         with:
           root_file: poster.tex
           working_directory: poster
           latexmk_shell_escape: true
+          args: -pdf -silent -file-line-error -halt-on-error -interaction=nonstopmode
       - name: validar avisos
         run: python scripts/validar_latex.py
       - uses: actions/upload-artifact@v6
