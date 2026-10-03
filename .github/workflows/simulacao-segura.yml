@@ -15,4 +15,6 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/modelo.py
-      - run: python -c "import csv;from pathlib import Path;p=Path('data/generated/decaimento.csv');assert p.exists() and sum(1 for _ in p.open())>2"
+      - run: python scripts/ciclo_c14.py
+      - run: python -c "from pathlib import Path;assert all(Path(x).exists() for x in ['data/generated/decaimento.csv','data/generated/ciclo_c14.csv'])"
+      - run: python tests/test_ciclo_c14.py
