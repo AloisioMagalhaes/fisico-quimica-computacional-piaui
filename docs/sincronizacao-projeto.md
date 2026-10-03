@@ -107,3 +107,4 @@ O repositorio adotara no minimo 80 referencias rastreaveis, mas nenhuma referenc
 - Problema norteador: A + B, efeito da composicao e das impurezas na estabilidade/crescimento HPHT-CVD e avaliacao secundaria de propriedades relevantes para conversao energetica, sem fabricar fonte radioativa.
 - Pergunta de pesquisa: A + B, quais composicoes/condicoes favorecem estruturas sp3 e qual seria a potencia teorica de uma aplicacao betavoltaica, usando apenas parametros publicados.
 - Hipoteses: A como principal; B e C como hipoteses concorrentes a serem testadas e potencialmente rejeitadas. A: impurezas N/O/Ca/P alteram energia, defeitos e gap. B: toda cinza pode virar diamante puro. C: carbono biologico e automaticamente radioativo em nivel util.
+- Objetivos especificos: A, B, C, D, E e F. A opcao G foi excluida por seguranca.
