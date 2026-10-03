@@ -20,6 +20,8 @@ jobs:
           root_file: poster.tex
           working_directory: poster
           latexmk_shell_escape: true
+      - name: validar avisos
+        run: python scripts/validar_latex.py
       - uses: actions/upload-artifact@v6
         with:
           name: publication-${{ github.sha }}
