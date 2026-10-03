@@ -27,6 +27,7 @@ jobs:
     needs: scan
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v5
       - uses: actions/download-artifact@v6
         with:
           pattern: quantum-*
