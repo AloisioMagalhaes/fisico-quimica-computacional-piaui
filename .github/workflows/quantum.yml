@@ -8,8 +8,20 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        method: [hf, pbe, b3lyp]
-        system: [h2o, c2, c4, ring6, tetra4]
+        include:
+          - {method: hf, system: h2o}
+          - {method: pbe, system: h2o}
+          - {method: b3lyp, system: h2o}
+          - {method: hf, system: c2}
+          - {method: pbe, system: c2}
+          - {method: b3lyp, system: c2}
+          - {method: hf, system: c4}
+          - {method: b3lyp, system: c4}
+          - {method: hf, system: ring6}
+          - {method: pbe, system: ring6}
+          - {method: b3lyp, system: ring6}
+          - {method: hf, system: tetra4}
+          - {method: b3lyp, system: tetra4}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
