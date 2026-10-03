@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Simulação C-14</title>
+<style>body{font:16px system-ui;max-width:1000px;margin:auto;padding:24px;color:#17202a}canvas{width:100%;height:420px;border:1px solid #ccd}code{background:#eef;padding:2px 4px}small{color:#526}</style>
+<h1>Modelo normalizado do ciclo do carbono-14</h1>
+<p>Simulação didática: não representa cinzas reais, concentração isotópica, produção de radioisótopos ou uma bateria.</p>
+<canvas id="g" width="1000" height="420"></canvas>
+<p id="m"></p>
+<script>
+const c=document.querySelector('#g'),x=c.getContext('2d'),W=c.width,H=c.height,L=5730;
+function f(t){return Math.exp(-Math.log(2)*t/L)}
+x.fillStyle='#fff';x.fillRect(0,0,W,H);x.strokeStyle='#234';x.beginPath();x.moveTo(60,20);x.lineTo(60,370);x.lineTo(960,370);x.stroke();
+x.strokeStyle='#2878c8';x.lineWidth=3;x.beginPath();for(let t=0;t<=30000;t+=50){let X=60+t/30000*900,Y=370-f(t)*330;t?x.lineTo(X,Y):x.moveTo(X,Y)}x.stroke();
+x.fillStyle='#17202a';x.font='16px system-ui';x.fillText('fracao remanescente',70,35);x.fillText('tempo (anos)',850,400);x.fillText('0',45,390);x.fillText('30.000',900,390);x.fillText('100%',15,45);x.fillText('50%',15,215);x.fillText('0%',25,375);
+document.querySelector('#m').innerHTML='Meia-vida usada: <code>'+L+' anos</code> · valor remanescente em 5.730 anos: <code>'+f(L).toFixed(3)+'</code>.';
+</script>
