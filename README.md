@@ -17,3 +17,5 @@ python scripts\pyscf_exemplo.py
 ABNT: NBR 6022:2018, NBR 14724, NBR 10520:2023 e NBR 6023:2018, confirmando a edicao exigida pela instituicao. Fontes computacionais: https://pyscf.org/ e https://psi4.github.io/psi4docs/master/. Fonte de contexto: https://www.ukaea.org/news/diamonds-are-forever-worlds-first-carbon-14-diamond-battery-produced/ . Sci-Hub nao sera usado; utilizar DOI, repositorios institucionais, PubMed Central, arXiv ou acesso aberto legal.
 
 Materiais de pesquisa: [matriz de oportunidades](docs/matriz-oportunidades.md), [modelo de fichamento](docs/fichamento-modelo.md) e [evidencias bibliograficas](docs/evidencias.md).
+
+Protocolo de qualidade: [ABNT, integridade, escrita autoral e Feynman](docs/protocolo-qualidade-escrita.md).
