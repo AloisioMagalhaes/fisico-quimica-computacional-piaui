@@ -2,8 +2,9 @@ import json,os
 from pathlib import Path
 from pyscf import gto,dft,scf
 
-method=os.getenv('METHOD','hf').lower()
-mol=gto.M(atom='O 0 0 0; H 0 0 0.757; H 0.586 0 -0.379',basis='sto-3g',unit='Angstrom',verbose=0)
+method=os.getenv('METHOD','hf').lower(); system=os.getenv('SYSTEM','h2o').lower()
+atoms={'h2o':'O 0 0 0; H 0 0 0.757; H 0.586 0 -0.379','c2':'C 0 0 0; C 1.242 0 0'}
+mol=gto.M(atom=atoms[system],basis='sto-3g',unit='Angstrom',verbose=0)
 if method=='hf':
  r=scf.RHF(mol).run()
 else:
@@ -14,7 +15,7 @@ try:
  _,pop=r.mulliken_pop(verbose=0);charges=[float(x) for x in pop]
 except Exception:charges=[]
 Path('data/generated').mkdir(parents=True,exist_ok=True)
-o={'system':'H2O','method':method,'basis':'sto-3g','energy_hartree':float(r.e_tot),'converged':bool(r.converged),'homo_hartree':float(homo),'lumo_hartree':float(lumo),'gap_hartree':float(lumo-homo),'charges':charges,'geometry_angstrom':[[float(v) for v in mol.atom_coord(i)] for i in range(mol.natm)]}
-Path(f'data/generated/quantum_{method}.json').write_text(json.dumps(o,indent=2),encoding='utf-8')
+o={'system':system.upper(),'method':method,'basis':'sto-3g','energy_hartree':float(r.e_tot),'converged':bool(r.converged),'homo_hartree':float(homo),'lumo_hartree':float(lumo),'gap_hartree':float(lumo-homo),'charges':charges,'geometry_angstrom':[[float(v) for v in mol.atom_coord(i)] for i in range(mol.natm)]}
+Path(f'data/generated/quantum_{system}_{method}.json').write_text(json.dumps(o,indent=2),encoding='utf-8')
 assert o['converged']
 print(json.dumps(o))

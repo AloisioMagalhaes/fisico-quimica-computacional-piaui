@@ -2,13 +2,14 @@ name: quantum
 on:
   workflow_dispatch:
   push:
-    paths: [scripts/quantum_scan.py, tests/test_quantum_scan.py, .github/workflows/quantum.yml, requirements.txt]
+    paths: [scripts/quantum_scan.py, scripts/summary_quantum.py, scripts/plot_quantum.py, tests/test_quantum_scan.py, .github/workflows/quantum.yml, requirements.txt]
 jobs:
   scan:
     strategy:
       fail-fast: false
       matrix:
         method: [hf, pbe, b3lyp]
+        system: [h2o, c2]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -19,10 +20,11 @@ jobs:
       - run: python scripts/quantum_scan.py
         env:
           METHOD: ${{ matrix.method }}
+          SYSTEM: ${{ matrix.system }}
       - uses: actions/upload-artifact@v6
         with:
-          name: quantum-${{ matrix.method }}
-          path: data/generated/quantum_${{ matrix.method }}.json
+          name: quantum-${{ matrix.system }}-${{ matrix.method }}
+          path: data/generated/quantum_${{ matrix.system }}_${{ matrix.method }}.json
   summary:
     needs: scan
     runs-on: ubuntu-latest
@@ -37,7 +39,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/summary_quantum.py
+      - run: python scripts/plot_quantum.py
       - uses: actions/upload-artifact@v6
         with:
           name: quantum-summary
-          path: quantum-summary.csv
+          path: |
+            quantum-summary.csv
+            quantum-gap.png
