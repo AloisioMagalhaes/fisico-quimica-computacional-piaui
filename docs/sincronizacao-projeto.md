@@ -98,3 +98,8 @@ D. Tese.
 ## 13. Bibliografia minima
 
 O repositorio adotara no minimo 80 referencias rastreaveis, mas nenhuma referencia sera incluida apenas para atingir quantidade. Cada item deve ter DOI ou URL canonica, tipo de estudo, tema, acesso, resultado, limitacao e uso previsto.
+
+## Respostas registradas
+
+- Tematica: A + C.
+- Interpretacao operacional: modelar computacionalmente carbono biogenico e avaliar teoricamente residuos de biomassa ou cremacao como precursores parciais de diamante sintetico. Qualquer experimento real depende de laboratorio autorizado, caracterizacao previa e revisao humana.
