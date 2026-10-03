@@ -14,3 +14,11 @@ As referencias foram localizadas por SciSpace e Consensus em 2026-10-02. A selec
 | `hwang2020dye` | Alternativa de conversao | Celula sensibilizada com carbono radioisotopico | Nao e bateria de sal nem experimento caseiro |
 
 O workflow deve citar as chaves BibTeX, declarar se o resultado e teorico ou experimental e separar evidencias sobre C-14 de hipoteses sobre plantas, cinzas e raios cosmicos. Nao ha suporte nessas fontes para fabricar ou cristalizar cinzas radioativas fora de instalacao autorizada.
+
+## Referencias adicionais verificadas
+
+As oito referencias adicionais abaixo foram conferidas por DOI informado no material analisado e por busca semantica no SciSpace e Consensus:
+
+`burakov2025photovoltaic`, `li2024micronuclear`, `xi2024schottky`, `liu2019diamonddetectors`, `physicsworld2017nuclearwaste`, `shimaoka2020ultrahigh`, `tavares2023viability` e `nathan2010microbattery`.
+
+O item `physicsworld2017nuclearwaste` e uma materia tecnica de Physics World, nao um artigo experimental primario; deve ser usado como contexto, nao como evidencia unica. Valores de eficiencia, potencia e seguranca devem permanecer associados ao dispositivo, isotopo, geometria e condicoes descritos na fonte original.
