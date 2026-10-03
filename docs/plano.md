@@ -8,3 +8,11 @@
 7. Fazer revisao humana antes de qualquer atividade experimental.
 
 Nao incluir protocolos de preparacao, concentracao, cristalizacao ou blindagem de material radioativo.
+
+## Experimento escolar permitido
+
+Usar apenas materiais nao radioativos e comerciais, como grafite, carvao ativado e carbonato de calcio, para observar diferencas de composicao, Raman, massa e solubilidade sob supervisao docente. O resultado deve ser descrito como analogia de materiais, nao como producao de diamante ou bateria nuclear.
+
+## Simulacao no GitHub Actions
+
+O workflow `simulacao-segura.yml` executa o modelo matematico de decaimento com parametros publicados e valida o artefato CSV. Ele nao acessa, gera ou manipula isotopos, cinzas, fontes radioativas ou instrucoes experimentais.
