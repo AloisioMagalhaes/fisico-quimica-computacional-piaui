@@ -1,0 +1,25 @@
+name: quantum
+on:
+  workflow_dispatch:
+  push:
+    paths: [scripts/quantum_scan.py, tests/test_quantum_scan.py, .github/workflows/quantum.yml, requirements.txt]
+jobs:
+  scan:
+    strategy:
+      fail-fast: false
+      matrix:
+        method: [hf, pbe, b3lyp]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python scripts/quantum_scan.py
+        env:
+          METHOD: ${{ matrix.method }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quantum-${{ matrix.method }}
+          path: data/generated/quantum_${{ matrix.method }}.json
