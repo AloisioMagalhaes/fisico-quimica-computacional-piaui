@@ -83,6 +83,48 @@ Em cada próximo passo, o orientador deve entregar objetivo, tarefa pequena, cri
 
 Para revisão de literatura, usar PRISMA 2020 ou PRISMA-ScR conforme o desenho da revisão, com estratégia de busca, critérios, seleção e fluxograma. Para comunicação transparente, usar a diretriz de relato apropriada ao tipo de estudo. PRISMA disponibiliza checklist, fluxograma e exemplos; EQUATOR descreve diretrizes como listas estruturadas do conteúdo mínimo para que um trabalho seja entendido e reproduzido.
 
+## Regras para pesquisa no Brasil
+
+1. Confirmar o regulamento da instituição, do programa e do periódico; ABNT não substitui essas regras locais.
+2. Definir orientação, autoria, contribuições e responsabilidades antes da colaboração.
+3. Declarar ferramenta de IA, versão, finalidade e etapa de uso. A IA não pode ser apresentada como autora nem substituir a responsabilidade humana.
+4. Preservar dados, metadados, protocolos, código, software, versões e artefatos em repositório rastreável.
+5. Relatar alterações de método, dados ou análise e justificar cada desvio do plano.
+6. Depositar dissertação ou tese conforme o repositório e o regulamento institucional; a defesa depende das regras do programa e da banca.
+7. Escolher periódico por escopo, revisão por pares, política de dados, custos, indexação e sinais de publicação predatória; não escolher apenas por fator de impacto.
+8. Preparar uma versão de artigo, uma apresentação de defesa e um conjunto de dados/código suplementar, sem afirmar que são o mesmo produto.
+
+As regras de integridade do CNPq recomendam declarar o uso de IA, conservar dados e código, relatar aspectos relevantes para reprodutibilidade, definir autoria por contribuição e evitar periódicos predatórios. A CAPES informa que requisitos de cursos, teses, dissertações e registros dependem do programa e do ciclo de avaliação; portanto, a norma local deve ser conferida antes da defesa.
+
+## Roteiro de apresentação e defesa
+
+1. Problema e relevância em dois minutos.
+2. Lacuna e pergunta em uma frase.
+3. Hipóteses e desenho do estudo.
+4. Dados, código, métodos e critérios de convergência.
+5. Resultado principal com unidade, incerteza e comparação.
+6. Resultado contrário, falha ou limitação.
+7. Contribuição real, sem promessa além da evidência.
+8. Próximo teste e implicações seguras.
+
+Para cada slide, manter uma afirmação, uma evidência e uma limitação. O roteiro de perguntas da banca deve ser ensaiado com respostas curtas, fontes e indicação do que ainda não foi testado.
+
+## Roteiro de publicação
+
+1. Escolher o tipo de manuscrito: revisão, artigo metodológico, artigo de resultados ou protocolo.
+2. Ler as instruções do periódico e adaptar estrutura, referências, dados e material suplementar.
+3. Fazer revisão interna de método, estatística, código, figuras, citações, autoria e conflitos.
+4. Conferir se todas as afirmações têm fonte ou resultado próprio.
+5. Submeter uma única versão controlada e guardar recibo, manuscrito, anexos e respostas.
+6. Responder aos revisores em tabela: comentário, mudança, localização e justificativa quando não houver mudança.
+7. Corrigir o repositório e registrar a versão publicada, DOI, preprint e diferenças em relação à tese.
+
+## Fontes novas e limitações
+
+Prager et al. defendem descrição completa de desenho, métodos, procedimentos, análise e visualização para melhorar reprodutibilidade. Alston e Rick relacionam reprodutibilidade a gestão de dados, código legível e compartilhamento de materiais. Valdez et al. tratam treinamento em rigor, transparência, estatística e comunicação como prioridades de pesquisa. Setiawan et al. relatam melhora de competência após treinamento orientado, mas o estudo é pequeno, não randomizado e não prova que treinamento isolado garanta publicação.
+
+O PRISMA é adequado para relatar revisões sistemáticas e de escopo; não é um método universal para qualquer cálculo de química quântica. A diretriz do CNPq é aplicável ao contexto brasileiro de integridade, mas o regulamento da instituição e do programa continua sendo a autoridade operacional para defesa e depósito.
+
 ## Primeiro exercício
 
 Explique, sem consultar o repositório, em cinco frases: qual é a pergunta, qual é o objeto, qual é a hipótese principal, o que o cálculo atual mede e por que ele ainda não demonstra a existência de uma bateria.

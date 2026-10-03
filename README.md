@@ -25,3 +25,5 @@ Explicação progressiva dos cálculos, limites e resultados: [Guia Feynman](doc
 Escrita rastreável por afirmação, base, comentário e desdobramento: [Método ABCD](docs/metodo-abcd.md). O vínculo entre afirmações, fontes e limitações está em [Mapa de rastreabilidade](docs/mapa-rastreabilidade.md).
 
 Plano de formação e orientação científica: [Guia de orientação da pesquisa](docs/guia-orientacao-pesquisa.md).
+
+O guia incorpora transparência, reprodutibilidade, integridade e publicação no Brasil, com base no [PRISMA 2020](https://www.prisma-statement.org/prisma-2020), na [EQUATOR Network](https://www.equator-network.org/about-us/what-is-a-reporting-guideline/), no [CNPq](https://www.gov.br/cnpq/pt-br/composicao/comissao-de-integridade/diretrizes) e na [CAPES](https://www.gov.br/capes/pt-br/acesso-a-informacao/perguntas-frequentes/avaliacao-da-pos-graduacao).
