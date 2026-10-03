@@ -1,0 +1,10 @@
+title: Modelagem computacional reprodutível de estruturas moleculares de carbono
+version: 0.1.0
+status: benchmark
+scope: molecular_nonradioactive
+systems: [H2O, C2, C4_linear, C6_ring, C4_tetrahedral]
+methods: [HF, PBE, B3LYP]
+basis: STO-3G
+outputs: [JSON, CSV, PNG]
+repository: https://github.com/AloisioMagalhaes/fisico-quimica-computacional-piaui
+limitations: periodicity_missing; experimental_validation_missing; radioactive_material_excluded
