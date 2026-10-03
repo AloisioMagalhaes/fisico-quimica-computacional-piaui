@@ -28,4 +28,6 @@ Plano de formação e orientação científica: [Guia de orientação da pesquis
 
 Skills operacionais de pesquisa e orientação: [docs/skills](docs/skills/README.md).
 
+Índice normativo e operacional do projeto: [Protocolo mestre](docs/protocolo-mestre.md).
+
 O guia incorpora transparência, reprodutibilidade, integridade e publicação no Brasil, com base no [PRISMA 2020](https://www.prisma-statement.org/prisma-2020), na [EQUATOR Network](https://www.equator-network.org/about-us/what-is-a-reporting-guideline/), no [CNPq](https://www.gov.br/cnpq/pt-br/composicao/comissao-de-integridade/diretrizes) e na [CAPES](https://www.gov.br/capes/pt-br/acesso-a-informacao/perguntas-frequentes/avaliacao-da-pos-graduacao).
