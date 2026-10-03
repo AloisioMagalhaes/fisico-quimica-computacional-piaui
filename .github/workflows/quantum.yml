@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         method: [hf, pbe, b3lyp]
-        system: [h2o, c2]
+        system: [h2o, c2, c4, ring6, tetra4]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

@@ -5,4 +5,4 @@ for p in glob.glob('data/quantum-*/*.json'):
 rows.sort(key=lambda x:(x['system'],x['method']))
 with open('quantum-summary.csv','w',newline='',encoding='utf-8') as f:
  w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
-assert len(rows)==6
+assert len(rows)==15
