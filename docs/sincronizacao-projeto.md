@@ -111,3 +111,4 @@ O repositorio adotara no minimo 80 referencias rastreaveis, mas nenhuma referenc
 - Metodologia: A, revisao sistematizada, DFT, dinamica molecular e modelo cinetico.
 - Organizacao da revisao: A, por temas: ciclo biologico do C-14, carbono e cinzas, HPHT, CVD, DFT, caracterizacao, betavoltaica e seguranca.
 - Limitacoes: D, sem coleta/manipulacao informal de radioatividade, sem rastreabilidade individual sem analise isotopica independente e sem substituir validacao experimental por simulacao.
+- Resultado esperado: A. B e C foram registrados apenas como hipoteses a avaliar criticamente, nao como entregaveis: nao havera receita domestica nem promessa de bateria de alta potencia.
