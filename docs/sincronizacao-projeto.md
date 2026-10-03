@@ -113,3 +113,4 @@ O repositorio adotara no minimo 80 referencias rastreaveis, mas nenhuma referenc
 - Limitacoes: D, sem coleta/manipulacao informal de radioatividade, sem rastreabilidade individual sem analise isotopica independente e sem substituir validacao experimental por simulacao.
 - Resultado esperado: A. B e C foram registrados apenas como hipoteses a avaliar criticamente, nao como entregaveis: nao havera receita domestica nem promessa de bateria de alta potencia.
 - Nivel academico: C, dissertacao.
+- Criterio bibliografico: A, no minimo 80 artigos revisados por pares, cada um com DOI ou URL academica rastreavel.
