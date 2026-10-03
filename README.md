@@ -21,3 +21,5 @@ Materiais de pesquisa: [matriz de oportunidades](docs/matriz-oportunidades.md), 
 Protocolo de qualidade: [ABNT, integridade, escrita autoral e Feynman](docs/protocolo-qualidade-escrita.md).
 
 Explicação progressiva dos cálculos, limites e resultados: [Guia Feynman](docs/guia-feynman.md).
+
+Escrita rastreável por afirmação, base, comentário e desdobramento: [Método ABCD](docs/metodo-abcd.md). O vínculo entre afirmações, fontes e limitações está em [Mapa de rastreabilidade](docs/mapa-rastreabilidade.md).

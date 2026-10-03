@@ -44,6 +44,8 @@ Confirmar sempre o manual da instituição, pois ele pode estabelecer modelo pr�
 
 ## 5. Feynman aplicado ao estudo
 
+A redação de cada parágrafo seguirá também o método ABCD documentado em [metodo-abcd.md](metodo-abcd.md): Afirmação, Base, Comentário crítico e Desdobramento. A estrutura é uma adaptação transparente de guias universitários de argumento baseado em ideia principal, evidência, análise e ligação [@ttu_meal; @brandeis_argument].
+
 Para cada conceito, criar um arquivo ou seção com:
 
 - conceito em uma frase simples;
