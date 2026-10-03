@@ -6,9 +6,9 @@ method=os.getenv('METHOD','hf').lower(); system=os.getenv('SYSTEM','h2o').lower(
 atoms={'h2o':'O 0 0 0; H 0 0 0.757; H 0.586 0 -0.379','c2':'C 0 0 0; C 1.242 0 0','c4':'C 0 0 0; C 1.28 0 0; C 2.56 0 0; C 3.84 0 0','ring6':'C 1.40 0 0; C 0.70 1.212 0; C -0.70 1.212 0; C -1.40 0 0; C -0.70 -1.212 0; C 0.70 -1.212 0','tetra4':'C 0 0 0; C 1.54 0 0; C 0.513 1.451 0; C 0.513 0.484 1.368'}
 mol=gto.M(atom=atoms[system],basis='sto-3g',unit='Angstrom',verbose=0)
 if method=='hf':
- r=scf.RHF(mol).run()
+ r=scf.RHF(mol);r.max_cycle=200;r=r.run()
 else:
- r=dft.RKS(mol);r.xc=method;r=r.run()
+ r=dft.RKS(mol);r.xc=method;r.max_cycle=200;r=r.run()
 e=list(r.mo_energy);n=mol.nelectron//2
 homo=e[n-1];lumo=e[n];
 try:
