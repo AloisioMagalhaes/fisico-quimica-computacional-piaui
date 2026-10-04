@@ -1,10 +1,11 @@
 title: Modelagem computacional reprodutível de estruturas moleculares de carbono
 version: 0.1.0
 status: benchmark
-scope: molecular_nonradioactive
+scope: molecular_nonradioactive_and_biomass_ash_mineralogy
 systems: [H2O, C2, C4_linear, C6_ring, C4_tetrahedral]
 methods: [HF, PBE, B3LYP]
 basis: STO-3G
 outputs: [JSON, CSV, PNG]
 repository: https://github.com/AloisioMagalhaes/fisico-quimica-computacional-piaui
-limitations: periodicity_missing; experimental_validation_missing; radioactive_material_excluded
+research_lines: biomass_ash_crystallization; biochar_electrodes; betavoltaic_literature_only
+limitations: periodicity_missing; experimental_validation_missing; isotope_measurement_missing; radioactive_material_excluded
