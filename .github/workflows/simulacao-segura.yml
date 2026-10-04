@@ -16,5 +16,7 @@ jobs:
           python-version: '3.12'
       - run: python scripts/modelo.py
       - run: python scripts/ciclo_c14.py
+      - run: python scripts/triagem_cinzas.py
       - run: python -c "from pathlib import Path;assert all(Path(x).exists() for x in ['data/generated/decaimento.csv','data/generated/ciclo_c14.csv'])"
       - run: python tests/test_ciclo_c14.py
+      - run: python tests/test_triagem_cinzas.py

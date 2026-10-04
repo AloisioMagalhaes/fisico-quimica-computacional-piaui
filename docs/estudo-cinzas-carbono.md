@@ -61,6 +61,10 @@ Avaliar o carbono como eletrodo em sistema aprovado institucionalmente, comparan
 
 O projeto só avança para material de eletrodo se houver: composição reprodutível, identificação estrutural, carbono mensurável, condutividade, comparação com controle e documentação de segurança. A hipótese betavoltaica permanece revisão teórica, não experimento escolar.
 
+## Próximo estágio implementado
+
+O repositório agora gera `data/generated/triagem_fases_cinzas.csv` e `.json` com fases de referência para orientar a leitura de difratogramas. A triagem calcula apenas descritores estequiométricos e massa molar; não identifica automaticamente uma amostra, não substitui XRD e não simula cristalização.
+
 ## Referências rastreáveis
 
 [1] NRC. [Uses of radiation](https://www.nrc.gov/education-regulatory-research/the-student-corner/unit-2-uses-of-radiation).

@@ -1,0 +1,44 @@
+[
+  {
+    "fase": "calcita",
+    "formula": "CaCO3",
+    "classe": "carbonato",
+    "massa_molar_g_mol": 100.086,
+    "elementos": "Ca,C,O"
+  },
+  {
+    "fase": "quartzo",
+    "formula": "SiO2",
+    "classe": "silicato/óxido",
+    "massa_molar_g_mol": 60.083,
+    "elementos": "Si,O"
+  },
+  {
+    "fase": "hidroxiapatita",
+    "formula": "Ca5(PO4)3OH",
+    "classe": "fosfato",
+    "massa_molar_g_mol": 248.371,
+    "elementos": "Ca,P,O,H"
+  },
+  {
+    "fase": "cal",
+    "formula": "CaO",
+    "classe": "óxido",
+    "massa_molar_g_mol": 56.077,
+    "elementos": "Ca,O"
+  },
+  {
+    "fase": "cloreto_de_potassio",
+    "formula": "KCl",
+    "classe": "cloreto",
+    "massa_molar_g_mol": 74.548,
+    "elementos": "K,Cl"
+  },
+  {
+    "fase": "sulfato_de_potassio",
+    "formula": "K2SO4",
+    "classe": "sulfato",
+    "massa_molar_g_mol": 174.252,
+    "elementos": "K,S,O"
+  }
+]
