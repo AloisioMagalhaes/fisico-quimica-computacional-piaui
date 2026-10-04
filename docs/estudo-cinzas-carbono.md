@@ -2,6 +2,8 @@
 
 ## Decisão científica
 
+Este estudo segue a [Política obrigatória de evidência e citação](politica-evidencia-citacao.md): cada hipótese, decisão e conclusão deve ser acompanhada de fonte rastreável, citação direta curta, método, resultado e limitação.
+
 O projeto será dividido em duas linhas que não devem ser confundidas:
 
 1. **Linha mineralógica:** identificar e comparar fases cristalinas formadas em cinzas de biomassa.
